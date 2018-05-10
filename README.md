@@ -11,15 +11,17 @@ and easy to use.
 
 APL-reggie takes advantage of APL's syntax. People have used APL to create embedded DSLs for decades.
 Stranding and dyadic (infix) functions allow you to write powerful regular expressions that
-read *almost* like normal English. Here's reggie code to recognise and analyse telephone numbers in
+read *almost* like normal English.
+
+Here's APL-reggie code to recognise and analyse telephone numbers in
 North American format:
 
-    d3 ← 3 of digit
-    d4 ← d3 digit
-    international ← 'i' name optional escape '+1'
-    area ← optional osp lp 'area' name d3 rp
-    local ← osp ('exchange' name d3) dash 'number' name d4
-    number ← international + area + local
+     d3←3 of digit
+     d4←4 of digit
+     local←osp('exchange'defined d3)dash('number'defined d4)
+     area←optional osp('area'defined lp d3 rp)
+     international←'i'defined optional escape'+1'
+     number←international area local
     
 You can use it like this:
     
@@ -32,5 +34,7 @@ and here is the result:
     exchange    345
     number      2192
     
-You can find more about this and other simple examples of APL-reggie's use in the `examples` folder.
+Now it's easy to retrieve the number in standard format:
 
+    `,,/('+1 (123) 345-2192' match number)[;2]
+    

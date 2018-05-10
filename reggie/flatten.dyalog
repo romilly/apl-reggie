@@ -1,1 +1,1 @@
-﻿ flatten←{1<≡⍵:⊃,/flatten¨⍵ ⋄ ⍵}
+﻿ flatten←{1<|≡⍵:⊃,/flatten¨⍵ ⋄ ⍵}

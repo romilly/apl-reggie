@@ -1,0 +1,1 @@
+ ]load '/home/romilly/git/active/apl-reggie/reggie/*.dyalog' ⍝ Oh, why is there not a way of using relative paths?
