@@ -1,0 +1,1 @@
+match_line ← {⍺ find_all whole_line ⍵}

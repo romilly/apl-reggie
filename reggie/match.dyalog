@@ -1,1 +1,1 @@
-﻿ match←{select(('^',(flatten ⍵),'$')⎕S{matched ⍵})⍺}
+﻿ match←{select((flatten ⍵)⎕S{matched ⍵})⍺}

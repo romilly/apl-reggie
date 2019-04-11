@@ -2,12 +2,14 @@
 
 
 
-This is a version of [reggie-dsl]() ported to Dyalog APL.
+This is a version of [reggie-dsl](https://github.com/romilly/reggie-dsl)
+ported to Dyalog APL.
 
 Regular Expressions are powerful but they can be hard to tame.
 
 *reggie-dsl* is a Domain Specific Language (DSL) that makes regular expressions readable
-and easy to use.
+and easy to use. You can read more about the origin and use of reggie-dsl in this
+[blog post](https://blog.rareschool.com/2018/05/reggie-readable-regular-expressions-in.html).
 
 APL-reggie takes advantage of APL's syntax. People have used APL to create embedded DSLs for decades.
 Stranding and dyadic (infix) functions allow you to write powerful regular expressions that
@@ -36,5 +38,5 @@ and here is the result:
     
 Now it's easy to retrieve the number in standard format:
 
-    `,,/('+1 (123) 345-2192' match number)[;2]
+    ,,/('+1 (123) 345-2192' match number)[;2]
     

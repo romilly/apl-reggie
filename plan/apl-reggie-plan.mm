@@ -1,6 +1,6 @@
-<map version="freeplane 1.3.0">
+<map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1399884031997"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1399884031997"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14,21 +14,26 @@
 </html>
 </richcontent>
 <hook NAME="MapStyle">
+    <properties fit_to_viewport="false;"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -42,7 +47,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -62,9 +67,34 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Goal" POSITION="right" ID="Freemind_Link_1242386705" CREATED="1266488217621" MODIFIED="1485097924419" COLOR="#37a3cb"/>
+<node TEXT="Goal" POSITION="right" ID="Freemind_Link_1242386705" CREATED="1266488217621" MODIFIED="1485097924419" COLOR="#37a3cb">
+<node TEXT="publish" ID="ID_1697752514" CREATED="1553522429362" MODIFIED="1553522437655">
+<node TEXT="github" ID="ID_314035115" CREATED="1553522438546" MODIFIED="1553522441174"/>
+<node TEXT="blog" ID="ID_382866642" CREATED="1553522441473" MODIFIED="1553522444829"/>
+</node>
+</node>
 <node TEXT="Plan" POSITION="right" ID="_" CREATED="1266488212530" MODIFIED="1266488546784" COLOR="#373dcb">
 <edge COLOR="#808080"/>
+<node TEXT="document load process" ID="ID_1537078372" CREATED="1553522447865" MODIFIED="1553522454948"/>
+<node TEXT="create egs" ID="ID_1562382248" CREATED="1553522455233" MODIFIED="1553522462684">
+<node TEXT="tel number" ID="ID_207260687" CREATED="1553522464281" MODIFIED="1553522467974"/>
+<node TEXT="cdrs" ID="ID_435006790" CREATED="1553522468265" MODIFIED="1553522473884">
+<node TEXT="add missing reggie features" ID="ID_1948931365" CREATED="1553595619317" MODIFIED="1553595626085">
+<node TEXT="one_of" ID="ID_1068528600" CREATED="1553595627201" MODIFIED="1553595630790"/>
+<node TEXT="constants" ID="ID_272098545" CREATED="1553595631129" MODIFIED="1553595634501">
+<node TEXT="copy python" ID="ID_1852838853" CREATED="1553595641265" MODIFIED="1553595644252"/>
+<node TEXT="add apl line by line" ID="ID_430860056" CREATED="1553595644641" MODIFIED="1553595652005"/>
+</node>
+<node TEXT="unit tests" ID="ID_279164088" CREATED="1553595655112" MODIFIED="1553595658569">
+<node TEXT="add tests ns" ID="ID_601901341" CREATED="1553595703960" MODIFIED="1553595732567">
+<icon BUILTIN="help"/>
+</node>
+<node TEXT="returns" ID="ID_385683042" CREATED="1553595734887" MODIFIED="1553595738922"/>
+</node>
+</node>
+</node>
+<node TEXT="another?" ID="ID_1545490720" CREATED="1553522474529" MODIFIED="1553522478484"/>
+</node>
 </node>
 <node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613"/>
 <node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
