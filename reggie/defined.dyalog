@@ -1,1 +1,1 @@
-﻿ defined←{'(?<',⍺,'>',(bracket flatten ⍵),')'}
+﻿ defined←{'(?P<',⍺,'>',(bracket flatten ⍵),')'}
