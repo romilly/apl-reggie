@@ -1,5 +1,7 @@
 ﻿ Setup
  dash←'-'
+ slash←'/'
+ colon←':'
  digit←'\d'
  digits←'\d+'
  osp←'(\s)?'
