@@ -27,16 +27,15 @@ North American format:
     
 You can use it like this:
     
-    number match '+1 (123) 345-2192'
+     '+1 (123) 345-2192' match number
 
 and here is the result:
     
-    i           +1
-    area        123
-    exchange    345
-    number      2192
+    i         +1    
+    area      (123) 
+    exchange  345   
+    number    2192  
     
-Now it's easy to retrieve the number in standard format:
 
-    ,,/('+1 (123) 345-2192' match number)[;2]
+    
     
