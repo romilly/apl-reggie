@@ -1,1 +1,13 @@
- ]load reggie/*.dyalog'
+]load 'reggie/*.dyalog'
+Setup ⍝ creates useful variables
+
+⍝ if you want to run the tests
+
+]load 'test/*.dyalog'
+test_all ⍝ Silence means success. Output  describes failure.
+
+⍝ run example
+'N,+448000077938,+441603761827,09/08/2015,07:00:12,2,' match cdr
+
+⍝ more info at
+
